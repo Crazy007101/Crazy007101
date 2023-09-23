@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "/workspaces/Crazy007101/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang++",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerPathInCppPropertiesJson": "/usr/bin/clang",
+            "mergeConfigurations": false,
+            "browse": {
+                "path": [
+                    "/workspaces/Crazy007101/**",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
